@@ -1,0 +1,22 @@
+.offers{
+    display: flex;
+    height: 60vh;
+    margin: 100px;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+      background: linear-gradient(180deg,#c2b3c2,#06a13422 60% );
+}
+.offer-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.offer-right{
+    color: #171717;
+    font-size: 50px;
+
+
+
+}
