@@ -6,6 +6,30 @@
     margin-bottom: 150px;
       background: linear-gradient(180deg,#c2b3c2,#06a13422 60% );
 }
+@media (max-width: 900px) {
+  .offers {
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+  }
+  .offer-right {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .offers {
+    flex-direction: column;
+    height: auto;
+    margin: 5px;
+    padding: 0px 2px;
+    margin-bottom: 20px;
+  }
+  .offer-right {
+    font-size: 16px;
+  }
+}
 .offer-left{
   flex: 1;
   display: flex;

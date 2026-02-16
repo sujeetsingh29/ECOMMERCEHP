@@ -6,6 +6,24 @@
     gap: 50px;
 
 }
+@media (max-width: 900px) {
+    .footer-links {
+        gap: 20px;
+        font-size: 16px;
+    }
+    .footer-logo p {
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    .footer-links {
+        gap: 10px;
+        font-size: 12px;
+    }
+    .footer-logo p {
+        font-size: 16px;
+    }
+}
 .footer-logo{
     display:flex;
     align-items: center;

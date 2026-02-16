@@ -11,6 +11,42 @@
     background-color:180deg  aliceblue;
     gap:  30px;
 }
+@media (max-width: 900px) {
+    .newsletter {
+        padding: 0px 10px;
+        margin-bottom: 50px;
+        height: auto;
+    }
+    .newsletter p {
+        font-size: 24px;
+    }
+    .newsletter div {
+        width: 100%;
+        border-radius: 40px;
+    }
+    .newsletter input {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    .newsletter {
+        padding: 0px 2px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .newsletter p {
+        font-size: 16px;
+    }
+    .newsletter div {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .newsletter input {
+        width: 100%;
+        font-size: 12px;
+    }
+}
 .newsletter p{
     color: #454545;
     font-size: 55px;

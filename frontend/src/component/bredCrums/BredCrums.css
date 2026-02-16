@@ -12,3 +12,15 @@
 
 
 }
+@media (max-width: 900px) {
+    .bredcrums {
+        font-size: 12px;
+        gap: 4px;
+    }
+}
+@media (max-width: 600px) {
+    .bredcrums {
+        font-size: 10px;
+        gap: 2px;
+    }
+}

@@ -29,3 +29,21 @@ background: #252525;
         margin-top: 50px;
         gap: 30px;
     }
+@media (max-width: 900px) {
+    .collections {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .newcollectio h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    .collections {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .newcollectio h1 {
+        font-size: 16px;
+    }
+}

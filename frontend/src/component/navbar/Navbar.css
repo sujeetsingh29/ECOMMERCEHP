@@ -4,6 +4,28 @@
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
 }
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .nav-menu {
+        gap: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .nav-logo p {
+        font-size: 16px;
+    }
+    .nav-menu {
+        gap: 10px;
+        flex-direction: column;
+    }
+}
 .nav-logo{
     display: flex;
     gap: 5px;

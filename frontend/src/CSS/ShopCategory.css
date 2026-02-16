@@ -3,6 +3,38 @@ display: block;
 margin: 30px auto;
 width: 82%;
 }
+@media (max-width: 900px) {
+    .shopcategory-banner {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .shopcategory-index {
+        margin: 0px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .shopcategory-products {
+        margin: 20px 10px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .shopcategory-banner {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .shopcategory-index {
+        margin: 0px 5px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .shopcategory-products {
+        margin: 10px 5px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
 
 .shopcategory-index{
     display: flex;

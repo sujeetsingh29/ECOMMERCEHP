@@ -3,6 +3,32 @@
     display: flex;
    background: linear-gradient(180deg,#c2b3c2,#06a13422 60% );
 }
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .hero-left {
+        padding-left: 10px;
+    }
+    .hero-left p {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 2px;
+    }
+    .hero-left {
+        padding-left: 2px;
+    }
+    .hero-left p {
+        font-size: 24px;
+    }
+}
 .hero-left{
     margin-top: 70px;
     flex: 1;

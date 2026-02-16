@@ -3,6 +3,24 @@
     
 
 }
+@media (max-width: 900px) {
+    .item {
+        width: 180px;
+    }
+    .item img {
+        height: 120px;
+    }
+}
+@media (max-width: 600px) {
+    .item {
+        width: 100%;
+    }
+    .item img {
+        height: 80px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
 .item p{
     margin:6px  0px ;
 }

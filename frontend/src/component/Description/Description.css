@@ -4,6 +4,24 @@
  
 
 }
+@media (max-width: 900px) {
+    .descriptionbox {
+        margin: 20px 10px;
+    }
+    .descriptionbox-description {
+        padding: 20px;
+        gap: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .descriptionbox {
+        margin: 5px 2px;
+    }
+    .descriptionbox-description {
+        padding: 10px;
+        gap: 5px;
+    }
+}
 
 .descriptionbox-navigator{
     display: flex;
