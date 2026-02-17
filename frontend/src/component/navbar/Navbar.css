@@ -6,24 +6,37 @@
 }
 @media (max-width: 900px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         padding: 10px;
     }
     .nav-menu {
-        gap: 20px;
+        gap: 5px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         padding: 5px;
     }
     .nav-logo p {
         font-size: 16px;
     }
     .nav-menu {
-        gap: 10px;
-        flex-direction: column;
+        gap:1px;
+        flex-direction: row;
+    }
+    .nav-menu li {
+        font-size: 5px;
+        flex-direction: row;
+        gap: 1px;
+
+    }
+    .nav-login-cart {
+        gap: 1px;
+    }
+   .nav-menu hr {
+        width: 100%;
+        height: auto;
     }
 }
 .nav-logo{
@@ -43,6 +56,7 @@
     display: flex;
     gap: 50px;
     align-items: center;
+    transition: right 0.3s;
 }
 .nav-menu li{
     display: flex;
@@ -51,6 +65,7 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    transition: font-size 0.3s;
 
 }
 .nav-menu hr{

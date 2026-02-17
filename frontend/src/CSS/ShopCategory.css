@@ -19,7 +19,7 @@ width: 82%;
         row-gap: 40px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .shopcategory-banner {
         width: 100%;
         margin: 10px auto;
