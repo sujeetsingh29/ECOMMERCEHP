@@ -1,82 +1,89 @@
-.hero{
-    height: 100vh;
+
+.hero {
     display: flex;
-   background: linear-gradient(180deg,#c2b3c2,#06a13422 60% );
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+.hero-left p {
+    font-size: 60px;
+}
+
+.hero-left h2 {
+    font-size: 24px;
+}
+
+.hero-latest-btn {
+    font-size: 18px;
+    padding: 14px 30px;
+}
+
+.hero-right img {
+    width: 500px;
+    max-width: 100%;
 }
 @media (max-width: 900px) {
+
     .hero {
         flex-direction: column;
-        height: auto;
-        padding: 20px 10px;
+        text-align: center;
+        padding: 40px 30px;
     }
-    .hero-left {
-        padding-left: 10px;
-    }
+
     .hero-left p {
-        font-size: 40px;
+        font-size: 44px;
+    }
+
+    .hero-left h2 {
+        font-size: 20px;
+    }
+
+    .hero-right img {
+        width: 80%;
+        margin-top: 20px;
     }
 }
+
+
 @media (max-width: 600px) {
+
     .hero {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 2px;
+        padding: 30px 15px;
     }
-    .hero-left {
-        padding-left: 2px;
-    }
+
     .hero-left p {
-        font-size: 24px;
+        font-size: 32px;
+    }
+
+    .hero-left h2 {
+        font-size: 16px;
+    }
+
+    .hero-latest-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .hero-right img {
+        width: 90%;
     }
 }
-.hero-left{
-    margin-top: 70px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-   
-    padding-left:70px ;
- 
+@media (max-width: 400px) {
+
+    .hero-left p {
+        font-size: 26px;
+    }
+
+    .hero-left h2 {
+        font-size: 14px;
+    }
+
+    .hero-latest-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 
 }
-.hero-left h2{
-    font-size: 20px;
-    font-weight: 600px;
-}
-.hero-latest-btn{
-    display: flex;
-justify-content: center;
-align-items: center;
 
-}
-.hero-left p{
-    font-size: 70px;
-    font-weight: 700;
-}
-.hero-latest-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 250px;
-    height: 50px;
-    border-radius: 75px;
-    margin-top:30px ;
-    background-color: #ff4141;
-    color: white;
-    font-size: 22px;
-    font-weight: 500px;
-}
-.hero-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.hero-hand-icon{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
